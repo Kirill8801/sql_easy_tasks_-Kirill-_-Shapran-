@@ -1,0 +1,67 @@
+
+mysql> INSERT INTO countryinfo (city_id, country_name, city_name, population, is_capital) VALUES 
+	(1,"United Kingdom", "London", 9126366, 1),
+	(2,"Spain", "Madrid", 3223334, 1),
+	(3,"Ukraine", "Kyiv", 2950800, 1),
+	(4,"Russia", "St Petersburg", 4678000, 0),
+	(5,"Germany", "Hamburg", 1705000, 0),
+	(6,"Ukraine", "Kharkov", 1494000, 0),
+	(7,"Spain", "Barcelona", 1455000, 0),
+	(8,"Russia", "Novosibirsk", 1400000, 0),
+	(9,"Ukraine", "Mykolaiv", 25000,0),
+	(10,"Ukraine", "Zaporozhye", 850000,0),
+	(11,"Ukraine", "Donetsk", 999000,0),
+	(12,"Ukraine", "Smila", 19000, 0),
+	(13,"Poland", "Poznan", 578000,0),
+	(14,"Poland", "Kraków", 740000, 0),
+	(15,"Poland", "Lódz", 23000, 0),
+	(16,"Russia", "Kemerovo", 450000, 0),
+	(17,"Poland", "Warszava", 1615000, 1),
+	(18,"Austria", "Wien", 1540000, 0),
+	(19,"Germany", "Frankfurt am Main", 644000, 0),
+	(20,"Russia", "Izhevsk", 654000,0),
+	(21,"Italy", "Palermo", 689000, 0),
+	(22,"Spain", "Sevilla", 695000, 0),
+	(23,"Ukraine", "Kryvy Rig", 705000, 0),
+	(24,"Russia", "Tolyatti", 720000, 0),
+	(25,"Greece", "Salonika", 749000, 0),
+	(26,"Ukraine", "Lvov", 786000, 0),
+	(27,"France", "Marseille", 800000, 0),
+	(28,"Germany", "Hannover", 515000, 0),
+	(29,"Germany", "Duisburg", 520000, 0),
+	(30,"Russia", "Tyumen", 502000, 0);
+mysql> select * from countryinfo;
++---------+----------------+-------------------+------------+------------+
+| city_id | country_name   | city_name         | population | is_capital |
++---------+----------------+-------------------+------------+------------+
+|       1 | United Kingdom | London            |    9126366 |          1 |
+|       2 | Spain          | Madrid            |    3223334 |          1 |
+|       3 | Ukraine        | Kyiv              |    2950800 |          1 |
+|       4 | Russia         | St Petersburg     |    4678000 |          0 |
+|       5 | Germany        | Hamburg           |    1705000 |          0 |
+|       6 | Ukraine        | Kharkov           |    1494000 |          0 |
+|       7 | Spain          | Barcelona         |    1455000 |          0 |
+|       8 | Russia         | Novosibirsk       |    1400000 |          0 |
+|       9 | Ukraine        | Mykolaiv          |      25000 |          0 |
+|      10 | Ukraine        | Zaporozhye        |     850000 |          0 |
+|      11 | Ukraine        | Donetsk           |     999000 |          0 |
+|      12 | Ukraine        | Smila             |      19000 |          0 |
+|      13 | Poland         | Poznan            |     578000 |          0 |
+|      14 | Poland         | Kraków            |     740000 |          0 |
+|      15 | Poland         | Lódz              |      23000 |          0 |
+|      16 | Russia         | Kemerovo          |     450000 |          0 |
+|      17 | Poland         | Warszava          |    1615000 |          1 |
+|      18 | Austria        | Wien              |    1540000 |          0 |
+|      19 | Germany        | Frankfurt am Main |     644000 |          0 |
+|      20 | Russia         | Izhevsk           |     654000 |          0 |
+|      21 | Italy          | Palermo           |     689000 |          0 |
+|      22 | Spain          | Sevilla           |     695000 |          0 |
+|      23 | Ukraine        | Kryvy Rig         |     705000 |          0 |
+|      24 | Russia         | Tolyatti          |     720000 |          0 |
+|      25 | Greece         | Salonika          |     749000 |          0 |
+|      26 | Ukraine        | Lvov              |     786000 |          0 |
+|      27 | France         | Marseille         |     800000 |          0 |
+|      28 | Germany        | Hannover          |     515000 |          0 |
+|      29 | Germany        | Duisburg          |     520000 |          0 |
+|      30 | Russia         | Tyumen            |     502000 |          0 |
++---------+----------------+-------------------+------------+------------+

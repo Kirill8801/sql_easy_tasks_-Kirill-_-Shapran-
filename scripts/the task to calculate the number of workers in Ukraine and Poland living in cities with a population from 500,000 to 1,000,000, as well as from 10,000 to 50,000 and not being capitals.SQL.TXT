@@ -1,0 +1,11 @@
+mysql> SELECT COUNT(1)
+    -> FROM peopleinfo JOIN countryinfo
+    -> ON peopleinfo.city_id = countryinfo.city_id
+    -> WHERE (population >= 10000 AND population <= 50000)
+    -> OR (population >= 500000 AND population <= 1000000)
+    -> AND (is_Occupied = 1 AND country_name IN ("Ukraine", "Poland") AND is_capital = 0);
++----------+
+| COUNT(1) |
++----------+
+|       18 |
++----------+

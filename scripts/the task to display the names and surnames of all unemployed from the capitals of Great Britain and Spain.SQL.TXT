@@ -1,0 +1,12 @@
+mysql> SELECT peopleinfo.name, peopleinfo.surname
+    -> FROM peopleinfo JOIN countryinfo
+    -> ON peopleinfo.city_id = countryinfo.city_id
+    -> WHERE (is_Occupied = 0 AND country_name IN ("United Kingdom", "Spain") AND is_capital = 1);
++---------+---------+
+| name    | surname |
++---------+---------+
+| Edlyn   | Lloyd   |
+| Alexis  | Lloyd   |
+| Akbar   | Fossum  |
+| Burilda | Fossum  |
++---------+---------+

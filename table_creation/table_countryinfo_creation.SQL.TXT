@@ -1,0 +1,21 @@
+
+
+mysql> create database homeworksql
+    -> ;
+mysql> use homeworksql;
+mysql> create table countryinfo (city_id int (11) not null primary key,
+    -> country_name varchar (50),
+    -> city_name varchar (50),
+    -> population int (11) not null,
+    -> is_capital bool);
+mysql> desc countryinfo;
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| city_id      | int         | NO   | PRI | NULL    |       |
+| country_name | varchar(50) | YES  |     | NULL    |       |
+| city_name    | varchar(50) | YES  |     | NULL    |       |
+| population   | int         | NO   |     | NULL    |       |
+| is_capital   | tinyint(1)  | YES  |     | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+

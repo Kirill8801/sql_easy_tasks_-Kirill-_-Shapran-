@@ -1,0 +1,209 @@
+
+mysql> INSERT INTO peopleinfo (city_id, name, surname, id, is_Occupied) VALUES
+    -> (2,"Edlyn", "Lloyd", 2, 0),
+    -> (3,"Edlyn", "Caplinger", 3, 1),
+    -> (4,"Edlyn", "Fossum", 4, 0),
+    -> (5,"Edlyn", "Knox", 5, 1),
+    -> (6,"Edlyn", "Rabideau", 6, 0),
+    -> (7,"Edlyn", "Smathers", 7, 1),
+    -> (8,"Edlyn", "Welcome", 8, 0),
+    -> (9,"Edlyn", "Cryer", 9, 1),
+    -> (10,"Edlyn", "Caplinger", 10, 0),
+    -> (11,"Collin", "Felton", 11, 1),
+    -> (12,"Collin", "Lloyd", 12, 0),
+    -> (13,"Collin", "Caplinger", 13, 1),
+    -> (14,"Collin", "Fossum", 14, 0),
+    -> (15,"Collin", "Knox", 15, 1),
+    -> (16,"Collin", "Rabideau", 16, 0),
+    -> (17,"Collin", "Smathers", 17, 1),
+    -> (18,"Collin", "Welcome", 18, 0),
+    -> (19,"Collin", "Cryer", 19, 1),
+    -> (20,"Collin", "Caplinger", 20, 0),
+    -> (21,"Wistan", "Felton", 21, 1),
+    -> (22,"Wistan", "Lloyd", 22, 0),
+    -> (23,"Wistan", "Caplinger", 23, 1),
+    -> (24,"Wistan", "Fossum", 24, 0),
+    -> (25,"Wistan", "Knox", 25, 1),
+    -> (26,"Wistan", "Rabideau", 26, 0),
+    -> (27,"Wistan", "Smathers", 27, 1),
+    -> (28,"Wistan", "Welcome", 28, 0),
+    -> (29,"Wistan", "Cryer", 29, 1),
+    -> (30,"Wistan", "Caplinger", 30, 0),
+    -> (1,"Alexis", "Felton", 31, 1),
+    -> (1,"Alexis", "Lloyd", 32, 0),
+    -> (2,"Alexis", "Caplinger", 33, 1),
+    -> (3,"Alexis", "Fossum", 34, 0),
+    -> (4,"Alexis", "Knox", 35, 1),
+    -> (5,"Alexis", "Rabideau", 36, 0),
+    -> (6,"Alexis", "Smathers", 37, 1),
+    -> (7,"Alexis", "Welcome", 38, 0),
+    -> (8,"Alexis", "Cryer", 39, 1),
+    -> (9,"Alexis", "Caplinger", 40, 0),
+    -> (10,"Kit", "Felton", 41, 1),
+    -> (11,"Kit", "Lloyd", 42, 0),
+    -> (12,"Kit", "Caplinger", 43, 1),
+    -> (13,"Kit", "Fossum", 44, 0),
+    -> (14,"Kit", "Knox", 45, 1),
+    -> (15,"Kit", "Rabideau", 46, 0),
+    -> (16,"Kit", "Smathers", 47, 1),
+    -> (17,"Kit", "Welcome", 48, 0),
+    -> (18,"Kit", "Cryer", 49, 1),
+    -> (19,"Kit", "Caplinger", 50, 0),
+    -> (20,"Elroy", "Felton", 51, 1),
+    -> (21,"Elroy", "Lloyd", 52, 0),
+    -> (22,"Elroy", "Caplinger", 53, 1),
+    -> (23,"Elroy", "Fossum", 54, 0),
+    -> (24,"Elroy", "Knox", 55, 1),
+    -> (25,"Elroy", "Rabideau", 56, 0),
+    -> (26,"Elroy", "Smathers", 57, 1),
+    -> (27,"Elroy", "Welcome", 58, 0),
+    -> (28,"Elroy", "Cryer", 59, 1),
+    -> (29,"Elroy", "Caplinger", 60, 0),
+    -> (30,"Akbar", "Felton", 61, 1),
+    -> (30,"Akbar", "Lloyd", 62, 0),
+    -> (1,"Akbar", "Caplinger", 63, 1),
+    -> (2,"Akbar", "Fossum", 64, 0),
+    -> (3,"Akbar", "Knox", 65, 1),
+    -> (4,"Akbar", "Rabideau", 66, 0),
+    -> (5,"Akbar", "Smathers", 67, 1),
+    -> (6,"Akbar", "Welcome", 68, 0),
+    -> (7,"Akbar", "Cryer", 69, 1),
+    -> (8,"Akbar", "Caplinger", 70, 0),
+    -> (9,"Leah", "Felton", 71, 1),
+    -> (10,"Leah", "Lloyd", 72, 0),
+    -> (11,"Leah", "Caplinger", 73, 1),
+    -> (12,"Leah", "Fossum", 74, 0),
+    -> (13,"Leah", "Knox", 75, 1),
+    -> (14,"Leah", "Rabideau", 76, 0),
+    -> (15,"Leah", "Smathers", 77, 1),
+    -> (16,"Leah", "Welcome", 78, 0),
+    -> (17,"Leah", "Cryer", 79, 1),
+    -> (18,"Leah", "Caplinger", 80, 0),
+    -> (19,"Alka", "Felton", 81, 1),
+    -> (20,"Alka", "Lloyd", 82, 0),
+    -> (21,"Alka", "Caplinger", 83, 1),
+    -> (22,"Alka", "Fossum", 84, 0),
+    -> (23,"Alka", "Knox", 85, 1),
+    -> (24,"Alka", "Rabideau", 86, 0),
+    -> (25,"Alka", "Smathers", 87, 1),
+    -> (26,"Alka", "Welcome", 88, 0),
+    -> (27,"Alka", "Cryer", 89, 1),
+    -> (28,"Alka", "Caplinger", 90, 0),
+    -> (29,"Burilda", "Felton", 91, 1),
+    -> (30,"Burilda", "Lloyd", 92, 0),
+    -> (1,"Burilda", "Caplinger", 93, 1),
+    -> (2,"Burilda", "Fossum", 94, 0),
+    -> (3,"Burilda", "Knox", 95, 1),
+    -> (4,"Burilda", "Rabideau", 96, 0),
+    -> (5,"Burilda", "Smathers", 97, 1),
+    -> (6,"Burilda", "Welcome", 98, 0),
+    -> (7,"Burilda", "Cryer", 99, 1),
+    -> (8,"Burilda", "Caplinger", 100, 0);
+Query OK, 99 rows affected (0.00 sec)
+Records: 99  Duplicates: 0  Warnings: 0
+
+mysql> select * from peopleinfo;
++-----+---------+-----------+---------+-------------+
+| id  | name    | surname   | city_id | is_occupied |
++-----+---------+-----------+---------+-------------+
+|   1 | Edlyn   | Felton    |       1 |           1 |
+|   2 | Edlyn   | Lloyd     |       2 |           0 |
+|   3 | Edlyn   | Caplinger |       3 |           1 |
+|   4 | Edlyn   | Fossum    |       4 |           0 |
+|   5 | Edlyn   | Knox      |       5 |           1 |
+|   6 | Edlyn   | Rabideau  |       6 |           0 |
+|   7 | Edlyn   | Smathers  |       7 |           1 |
+|   8 | Edlyn   | Welcome   |       8 |           0 |
+|   9 | Edlyn   | Cryer     |       9 |           1 |
+|  10 | Edlyn   | Caplinger |      10 |           0 |
+|  11 | Collin  | Felton    |      11 |           1 |
+|  12 | Collin  | Lloyd     |      12 |           0 |
+|  13 | Collin  | Caplinger |      13 |           1 |
+|  14 | Collin  | Fossum    |      14 |           0 |
+|  15 | Collin  | Knox      |      15 |           1 |
+|  16 | Collin  | Rabideau  |      16 |           0 |
+|  17 | Collin  | Smathers  |      17 |           1 |
+|  18 | Collin  | Welcome   |      18 |           0 |
+|  19 | Collin  | Cryer     |      19 |           1 |
+|  20 | Collin  | Caplinger |      20 |           0 |
+|  21 | Wistan  | Felton    |      21 |           1 |
+|  22 | Wistan  | Lloyd     |      22 |           0 |
+|  23 | Wistan  | Caplinger |      23 |           1 |
+|  24 | Wistan  | Fossum    |      24 |           0 |
+|  25 | Wistan  | Knox      |      25 |           1 |
+|  26 | Wistan  | Rabideau  |      26 |           0 |
+|  27 | Wistan  | Smathers  |      27 |           1 |
+|  28 | Wistan  | Welcome   |      28 |           0 |
+|  29 | Wistan  | Cryer     |      29 |           1 |
+|  30 | Wistan  | Caplinger |      30 |           0 |
+|  31 | Alexis  | Felton    |       1 |           1 |
+|  32 | Alexis  | Lloyd     |       1 |           0 |
+|  33 | Alexis  | Caplinger |       2 |           1 |
+|  34 | Alexis  | Fossum    |       3 |           0 |
+|  35 | Alexis  | Knox      |       4 |           1 |
+|  36 | Alexis  | Rabideau  |       5 |           0 |
+|  37 | Alexis  | Smathers  |       6 |           1 |
+|  38 | Alexis  | Welcome   |       7 |           0 |
+|  39 | Alexis  | Cryer     |       8 |           1 |
+|  40 | Alexis  | Caplinger |       9 |           0 |
+|  41 | Kit     | Felton    |      10 |           1 |
+|  42 | Kit     | Lloyd     |      11 |           0 |
+|  43 | Kit     | Caplinger |      12 |           1 |
+|  44 | Kit     | Fossum    |      13 |           0 |
+|  45 | Kit     | Knox      |      14 |           1 |
+|  46 | Kit     | Rabideau  |      15 |           0 |
+|  47 | Kit     | Smathers  |      16 |           1 |
+|  48 | Kit     | Welcome   |      17 |           0 |
+|  49 | Kit     | Cryer     |      18 |           1 |
+|  50 | Kit     | Caplinger |      19 |           0 |
+|  51 | Elroy   | Felton    |      20 |           1 |
+|  52 | Elroy   | Lloyd     |      21 |           0 |
+|  53 | Elroy   | Caplinger |      22 |           1 |
+|  54 | Elroy   | Fossum    |      23 |           0 |
+|  55 | Elroy   | Knox      |      24 |           1 |
+|  56 | Elroy   | Rabideau  |      25 |           0 |
+|  57 | Elroy   | Smathers  |      26 |           1 |
+|  58 | Elroy   | Welcome   |      27 |           0 |
+|  59 | Elroy   | Cryer     |      28 |           1 |
+|  60 | Elroy   | Caplinger |      29 |           0 |
+|  61 | Akbar   | Felton    |      30 |           1 |
+|  62 | Akbar   | Lloyd     |      30 |           0 |
+|  63 | Akbar   | Caplinger |       1 |           1 |
+|  64 | Akbar   | Fossum    |       2 |           0 |
+|  65 | Akbar   | Knox      |       3 |           1 |
+|  66 | Akbar   | Rabideau  |       4 |           0 |
+|  67 | Akbar   | Smathers  |       5 |           1 |
+|  68 | Akbar   | Welcome   |       6 |           0 |
+|  69 | Akbar   | Cryer     |       7 |           1 |
+|  70 | Akbar   | Caplinger |       8 |           0 |
+|  71 | Leah    | Felton    |       9 |           1 |
+|  72 | Leah    | Lloyd     |      10 |           0 |
+|  73 | Leah    | Caplinger |      11 |           1 |
+|  74 | Leah    | Fossum    |      12 |           0 |
+|  75 | Leah    | Knox      |      13 |           1 |
+|  76 | Leah    | Rabideau  |      14 |           0 |
+|  77 | Leah    | Smathers  |      15 |           1 |
+|  78 | Leah    | Welcome   |      16 |           0 |
+|  79 | Leah    | Cryer     |      17 |           1 |
+|  80 | Leah    | Caplinger |      18 |           0 |
+|  81 | Alka    | Felton    |      19 |           1 |
+|  82 | Alka    | Lloyd     |      20 |           0 |
+|  83 | Alka    | Caplinger |      21 |           1 |
+|  84 | Alka    | Fossum    |      22 |           0 |
+|  85 | Alka    | Knox      |      23 |           1 |
+|  86 | Alka    | Rabideau  |      24 |           0 |
+|  87 | Alka    | Smathers  |      25 |           1 |
+|  88 | Alka    | Welcome   |      26 |           0 |
+|  89 | Alka    | Cryer     |      27 |           1 |
+|  90 | Alka    | Caplinger |      28 |           0 |
+|  91 | Burilda | Felton    |      29 |           1 |
+|  92 | Burilda | Lloyd     |      30 |           0 |
+|  93 | Burilda | Caplinger |       1 |           1 |
+|  94 | Burilda | Fossum    |       2 |           0 |
+|  95 | Burilda | Knox      |       3 |           1 |
+|  96 | Burilda | Rabideau  |       4 |           0 |
+|  97 | Burilda | Smathers  |       5 |           1 |
+|  98 | Burilda | Welcome   |       6 |           0 |
+|  99 | Burilda | Cryer     |       7 |           1 |
+| 100 | Burilda | Caplinger |       8 |           0 |
++-----+---------+-----------+---------+-------------+
